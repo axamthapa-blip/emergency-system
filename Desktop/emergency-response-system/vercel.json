@@ -32,6 +32,11 @@
         "dest": "/modules/$1"
       },
       {
+        "src": "/favicon.ico",
+        "dest": "/favicon.ico",
+        "status": 404
+      },
+      {
         "src": "/(.*)",
         "dest": "/index.html"
       }
